@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div>
+      <div />
+      <div>
+        <input
+          type="text"
+          value=""
+        />
+        <button>
+          Add
+        </button>
+      </div>
+      <div />
+      Filter:
+      <select>
+        <option
+          data-testid="select-option"
+          value="Show All"
+        >
+          All
+        </option>
+        <option
+          data-testid="select-option"
+          value="Show Completed"
+        >
+          Completed
+        </option>
+        <option
+          data-testid="select-option"
+          disabled=""
+          value="Show Uncompleted"
+        >
+          Uncompleted
+        </option>
+      </select>
+      <ul>
+        <li>
+          Total items: 0
+        </li>
+        <li>
+          Items completed: 0
+        </li>
+        <li>
+          Items not completed: 0
+        </li>
+        <li>
+          Percent completed: 0
+        </li>
+      </ul>
+      <button>
+        Save
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
